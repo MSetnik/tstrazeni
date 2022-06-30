@@ -1,8 +1,6 @@
 # Frontend dio web aplikacije za TS trazeni
 <br>
 
-## React aplikacija pisana koristeci TypeScript radi ucenja nove tehnologije
-
 <br>
 
 ## Plugins
