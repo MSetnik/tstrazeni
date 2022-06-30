@@ -1,0 +1,15 @@
+.next-performances-container {
+    position: relative;
+    margin-top: -700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-performances-table-container {
+    background-color: rgba(0,0,0,0.7);
+    width: 90%;
+    height: 750px;
+    position: absolute;
+    z-index: 99;
+}

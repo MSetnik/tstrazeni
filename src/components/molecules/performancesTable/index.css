@@ -1,0 +1,45 @@
+.performances-table-container {
+    width: 100%;
+    height: 100%;
+    padding: 67px 84px 84px 67px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.performances-table-head {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.performances-table-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.performances-table-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 0 5px 0;
+}
+
+.performances-table-title {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 48px;
+    color: rgba(255,215,2,0.77);
+    padding-left: 30px;
+}
+
+
+.performances-table-text {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 32px;
+    color: #ffffff;
+    padding-left: 30px;
+}

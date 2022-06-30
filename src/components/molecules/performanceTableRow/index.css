@@ -1,0 +1,17 @@
+.performances-table-title {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 48px;
+    color: rgba(255,215,2,0.77);
+    padding-left: 30px;
+    text-transform: lowercase;
+}
+
+
+.performances-table-text {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 32px;
+    color: #ffffff;
+    padding-left: 30px;
+    text-transform: lowercase;
+
+}
