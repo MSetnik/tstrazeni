@@ -15,13 +15,9 @@
 npm i react-router-dom
 ```
 
-### Tailwindcss
-- Koristen [tailwindcss](https://tailwindcss.com/docs/guides/create-react-app) css framework za stiliziranje strance
+### Bootstrap
+- Koristen [Bootstrap](https://tailwindcss.com/docs/guides/create-react-app) za stiliziranje strance
 
-```
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-```
 
 ### React icons
 - Koristen [react icons](https://react-icons.github.io/react-icons/) za dohvacanje ikona

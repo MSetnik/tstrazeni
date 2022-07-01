@@ -1,0 +1,21 @@
+.songs-container {
+    position: relative;
+    z-index: 99;
+    justify-content: center;
+}
+
+.songs-grid-container {
+    position: absolute;
+    z-index: 999;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 130px 100px;
+    width: auto;
+    height: auto;
+}
+
+.col {
+    justify-content: center !important;
+}

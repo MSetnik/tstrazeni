@@ -4,3 +4,50 @@
     height: 100%;
     flex-direction: column;
 }
+
+.home-content3 {
+    display: flex;
+    position: relative;
+}
+
+.home-content3-image-overlay {
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    z-index: 1000;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    width: 100%;
+    height: 100%;
+}
+
+.home-content3-text {
+    font-family: 'IM Fell English SC', serif;
+    color: white;
+    font-size: 64px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-right: 130px;
+}
+
+
+.home-content3-text h2{
+    color: white;
+    font-size: 48px;
+}
+
+.home-content3-text p{
+    color: rgba(255,215,2,0.77);
+    display: inline;
+}
+
+.home-content3-text h4{
+    color: rgba(255,215,2,0.77);
+    font-size: 32px;
+}
+

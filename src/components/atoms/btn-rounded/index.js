@@ -1,7 +1,8 @@
 import { useState } from "react"
 
 const BtnRounded = ({color= 'rgba(255,215,2,0.77)', text, onClick = () => {}}) => {
-    const [hover ,setHover] = useState(false)
+    const [hover,setHover] = useState(false)
+    const [hoverColor,setHoverColor] = useState(color)
     return(
     <div style={{
         display: 'flex',
@@ -10,15 +11,20 @@ const BtnRounded = ({color= 'rgba(255,215,2,0.77)', text, onClick = () => {}}) =
         color: 'white',
         fontWeight: '600',
         fontSize: '14px',
-        textTransform: 'capitalize',
         fontFamily: 'Roboto, sans-serif', 
         letterSpacing: '2px',
         cursor: hover ?'pointer' : 'default'
     }}
     onClick={onClick}
-    onMouseEnter={() => setHover(true)}
-    onMouseLeave={() => setHover(false)}>
-        <div id="btn-reserve" style={{backgroundColor: color}}>
+    onMouseEnter={() =>{ 
+      setHover(true)
+      setHoverColor('rgba(255,215,2,0.67)')
+    }}
+    onMouseLeave={() => {
+      setHover(false)
+      setHoverColor('rgba(255,215,2,0.77)')
+    }}>
+        <div id="btn-reserve" style={{backgroundColor: hoverColor}}>
           <p>
             {text}
           </p>
