@@ -4,6 +4,8 @@ import HomeLanding from '../../components/molecules/homeLanding'
 import NextPerformances from '../../components/organisms/nextPerformances'
 import homeContent3Img from '../../assets/home-content3.png'
 import Songs from '../../components/organisms/songs'
+import HomeReserveUs from '../../components/organisms/homeReserveUs'
+import Footer from '../../components/organisms/footer'
 
 const Home = () => {
   return (
@@ -26,6 +28,9 @@ const Home = () => {
       
       <Songs />
 
+      <HomeReserveUs />
+
+      <Footer />
     </div>
 
   )

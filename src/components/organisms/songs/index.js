@@ -10,19 +10,19 @@ const Songs = () => {
             <img style={{zIndex: 99}} src={background} alt="bg" />
 
 
-            <div className="songs-grid-container row row-cols-3 justify-content-center ">
-                <div className="col">
+            <div className="songs-grid-container row row-cols-3  justify-content-center ">
+                <div className="col col-md-6">
                     <SongCard />
                 </div>
-                <div className="col">
-                    <SongCard />
-                </div>
-
-                <div className="col">
+                <div className="col col-md-6">
                     <SongCard />
                 </div>
 
-                <div className="col">
+                <div className="col col-md-6">
+                    <SongCard />
+                </div>
+
+                <div className="col col-md-6">
                     <SongCard />
                 </div>
             </div>

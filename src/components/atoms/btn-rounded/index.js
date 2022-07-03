@@ -24,7 +24,8 @@ const BtnRounded = ({color= 'rgba(255,215,2,0.77)', text, onClick = () => {}}) =
       setHover(false)
       setHoverColor('rgba(255,215,2,0.77)')
     }}>
-        <div id="btn-reserve" style={{backgroundColor: hoverColor}}>
+      {/* TODO: Doraditi centriranje buttona na dodavanje eventa u kalendar */}
+        <div className="btn-reserve" style={{backgroundColor: hoverColor, paddingTop: '10px', paddingBottom: '0px'}}>
           <p>
             {text}
           </p>

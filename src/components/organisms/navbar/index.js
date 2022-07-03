@@ -183,7 +183,7 @@ const Navbar = ({
           </div>
 
           <div className='link'>
-            <div id="btn-reserve">
+            <div className="btn-reserve">
               <a href="#bmi-calculator">
                 {link3}
               </a>

@@ -160,7 +160,7 @@
     animation-fill-mode: forwards;
 }
 
-#btn-reserve {
+.btn-reserve {
     background: rgba(255,215,2,0.77);
     border-radius: 50px;
     padding: 10px 20px;

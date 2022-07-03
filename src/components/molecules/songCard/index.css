@@ -54,3 +54,25 @@
     height: 100%;
 }
  
+
+@media only screen and (min-width: 768px) {
+    .song-img-overlay {
+        float: left;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        bottom: 0px;
+        z-index: 1000;
+        background-color: rgba(174, 13, 13, 0.4);
+        width: auto;
+        height: 100%;
+        aspect-ratio: 1/1;
+    }
+
+    .song-image-div img{
+        aspect-ratio: 1/1;
+        width: auto;
+        height: 100%;
+
+    }
+}

@@ -41,3 +41,11 @@
     color: rgba(255,215,2,0.77);
     display: inline;
 }
+
+
+@media only screen and (min-width: 768px) {
+    .home-elipse {
+        margin-top: -10%;
+        aspect-ratio: 1/1;
+    }
+} 
