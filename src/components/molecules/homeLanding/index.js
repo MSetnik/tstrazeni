@@ -5,7 +5,7 @@ import './index.css'
 
 const HomeLanding = () => {
   return (
-    <div style={{display: 'flex', flexDirection: 'column', width: '100%', height: '100%'}}>
+    <div style={{display: 'flex', flexDirection: 'column', width: '100%', height: '100%', zIndex: 1}}>
       <img alt='tstrazeni' className='home-image-1' src={tstrazeni1}/>
 
       <div className='home-landing-overlay'>

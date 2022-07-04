@@ -26,8 +26,9 @@
     position: absolute;
     z-index: 99;
     top: 400px;
-    right: 100px;
+    margin-left: 250px;
     text-align: right;
+    
 }
 
 .home-container-1-text h2{
@@ -49,3 +50,207 @@
         aspect-ratio: 1/1;
     }
 } 
+
+
+
+@media only screen and (max-width: 768px) {
+    /* .home-elipse {
+        right: -80%;
+
+    }
+    .home-elipse svg {
+        margin-top: -10%;
+        aspect-ratio: 1/1;
+        height: 400px !important;
+    }
+
+
+    .home-container-1-text {
+        top: 50%;
+        left: 50vw;
+        width: 100vw!important;
+    }
+
+    .home-container-1-text h2{
+        font-size: 20px;
+        font-family: 'IM Fell English SC', serif;
+        color: white;
+
+    }
+
+    .yellow-letter-home-container-1 {
+        color: rgba(255,215,2,0.77);
+        display: inline;
+    } */
+
+} 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .home-elipse {
+        right: -200px;
+
+    }
+    .home-elipse svg {
+        margin-top: -10%;
+        aspect-ratio: 1/1;
+        height: 400px !important;
+    }
+
+
+    .home-container-1-text {
+        top: 50%;
+        margin-left: 450px;
+        max-width: 100vw!important;
+    }
+
+    .home-container-1-text h2{
+        font-size: 20px;
+        font-family: 'IM Fell English SC', serif;
+        color: white;
+
+    }
+
+    .yellow-letter-home-container-1 {
+        color: rgba(255,215,2,0.77);
+        display: inline;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .home-elipse {
+        display: flex;
+        left: -200px;
+        justify-content: flex-end;
+    }
+    .home-elipse svg {
+        margin-top: -20%;
+        width: 60% !important;
+        aspect-ratio: 1/1;
+    }
+
+
+    .home-container-1-text {
+        top: 50%;
+        max-width: 100vw!important;
+        margin-right: 50px;
+    }
+
+    .home-container-1-text h2{
+        font-size: 28px;
+        font-family: 'IM Fell English SC', serif;
+        color: white;
+
+    }
+
+    .yellow-letter-home-container-1 {
+        color: rgba(255,215,2,0.77);
+        display: inline;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .home-elipse {
+        display: flex;
+        left: -200px;
+        justify-content: flex-end;
+    }
+    .home-elipse svg {
+        margin-top: -10%;
+        width: 90% !important;
+        aspect-ratio: 1/1;
+    }
+
+
+    .home-container-1-text {
+        top: 50%;
+        max-width: 100vw!important;
+        margin-right: 100px;
+        margin-top: -100px !important;
+    }
+
+    .home-container-1-text h2{
+        font-size: 32px;
+        font-family: 'IM Fell English SC', serif;
+        color: white;
+
+    }
+
+    .yellow-letter-home-container-1 {
+        color: rgba(255,215,2,0.77);
+        display: inline;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .home-elipse {
+        display: flex;
+        left: -200px;
+        justify-content: flex-end;
+    }
+    .home-elipse svg {
+        margin-top: -10%;
+        width: 90% !important;
+        aspect-ratio: 1/1;
+    }
+
+
+    .home-container-1-text {
+        top: 50%;
+        max-width: 100vw!important;
+        margin-right: 100px;
+        margin-top: -200px !important;
+    }
+
+    .home-container-1-text h2{
+        font-size: 32px;
+        font-family: 'IM Fell English SC', serif;
+        color: white;
+
+    }
+
+    .yellow-letter-home-container-1 {
+        color: rgba(255,215,2,0.77);
+        display: inline;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .home-elipse {
+        display: flex;
+        left: -200px;
+        justify-content: flex-end;
+    }
+    .home-elipse svg {
+        margin-top: -0%;
+        width: 90% !important;
+        height: 70%;
+        aspect-ratio: 1/1;
+
+    }
+
+
+    .home-container-1-text {
+        top: 50%;
+        max-width: 100vw!important;
+        margin-right: 200px;
+        margin-top: -200px !important;
+    }
+
+    .home-container-1-text h2{
+        font-size: 42px;
+        font-family: 'IM Fell English SC', serif;
+        color: white;
+
+    }
+
+    .yellow-letter-home-container-1 {
+        color: rgba(255,215,2,0.77);
+        display: inline;
+    }
+}

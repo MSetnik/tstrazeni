@@ -1,8 +1,18 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
+import './index.css'
+import {FaCalendarPlus} from 'react-icons/fa'
 
 const BtnRounded = ({color= 'rgba(255,215,2,0.77)', text, onClick = () => {}}) => {
     const [hover,setHover] = useState(false)
     const [hoverColor,setHoverColor] = useState(color)
+
+    const [windowInnerWidth, setWindowInnerWidth] = useState(window.innerWidth)
+
+      window.addEventListener('resize', () => {
+        setWindowInnerWidth(window.innerWidth)
+      }) 
+ 
+
     return(
     <div style={{
         display: 'flex',
@@ -13,6 +23,7 @@ const BtnRounded = ({color= 'rgba(255,215,2,0.77)', text, onClick = () => {}}) =
         fontSize: '14px',
         fontFamily: 'Roboto, sans-serif', 
         letterSpacing: '2px',
+        marginBottom: '4px',
         cursor: hover ?'pointer' : 'default'
     }}
     onClick={onClick}
@@ -25,10 +36,15 @@ const BtnRounded = ({color= 'rgba(255,215,2,0.77)', text, onClick = () => {}}) =
       setHoverColor('rgba(255,215,2,0.77)')
     }}>
       {/* TODO: Doraditi centriranje buttona na dodavanje eventa u kalendar */}
-        <div className="btn-reserve" style={{backgroundColor: hoverColor, paddingTop: '10px', paddingBottom: '0px'}}>
-          <p>
+        <div className="btn-reserve" style={{backgroundColor: hoverColor}}>
+          {
+            windowInnerWidth > 768 ?
+          <p style={{ margin: 'auto'}}>
             {text}
-          </p>
+          </p> : 
+            <FaCalendarPlus />
+
+          }
         </div>
     </div>
     )

@@ -133,7 +133,7 @@ const Navbar = ({
        windowInnerWidth <= 768 &&
         <div className="navbar-menu navbar-menu-hidden">
           <div className="navbar-menu-close">
-              <MdOutlineClose className="navbar-menu-btn-close" size={30} onClick={() => closeNavMenu()}/>
+              <MdOutlineClose className="navbar-menu-btn-close" color='rgba(255,255,255, 0.8)' size={30} onClick={() => closeNavMenu()}/>
           </div>
 
           <div className="navbar-menu-content">
@@ -194,7 +194,7 @@ const Navbar = ({
         {
           windowInnerWidth <= 768 &&
           <div className="nav-menu-hamburger" >
-            <FiMenu className="navbar-menu-btn-close" size={24} color='#4176c5' onClick={() => openNavMenu()}/>
+            <FiMenu className="navbar-menu-btn-close" size={24} color='rgba(255,215,2,0.77)' onClick={() => openNavMenu()}/>
           </div>
         }
 

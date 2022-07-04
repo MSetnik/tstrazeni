@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 9;
 }
 
 .next-performances-table-container {
@@ -12,4 +13,105 @@
     height: 750px;
     position: absolute;
     z-index: 99;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .next-performances-container {
+        position: relative;
+        margin-top: -50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9;
+    }
+    
+    .next-performances-table-container {
+        background-color: rgba(0,0,0,0.7);
+        width: 90%;
+        height: 750px;
+        position: absolute;
+        z-index: 99;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .next-performances-container {
+        position: relative;
+        margin-top: -50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9;
+    }
+    
+    .next-performances-table-container {
+        background-color: rgba(0,0,0,0.7);
+        width: 90%;
+        height: 750px;
+        position: absolute;
+        z-index: 99;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .next-performances-container {
+        position: relative;
+        margin-top: -200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9;
+    }
+    
+    .next-performances-table-container {
+        background-color: rgba(0,0,0,0.7);
+        width: 90%;
+        height: 750px;
+        position: absolute;
+        z-index: 99;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .next-performances-container {
+        position: relative;
+        margin-top: -300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9;
+    }
+    
+    .next-performances-table-container {
+        background-color: rgba(0,0,0,0.7);
+        width: 90%;
+        height: 750px;
+        position: absolute;
+        z-index: 99;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .next-performances-container {
+        position: relative;
+        margin-top: -300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9;
+    }
+    
+    .next-performances-table-container {
+        background-color: rgba(0,0,0,0.7);
+        width: 90%;
+        height: 750px;
+        position: absolute;
+        z-index: 99;
+    }
 }

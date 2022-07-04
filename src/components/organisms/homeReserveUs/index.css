@@ -18,8 +18,24 @@
     top: 0;
     z-index: 999;
     margin-top: 34px;
-
+    border-radius: 50%;
 }
+
+.reserve-us-btn-container:hover {
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    margin-top: 34px;
+    border-radius: 50%;
+    background-color: rgba(255,215,2,0.67);
+    z-index: inherit;
+    cursor: pointer;
+}
+
+.reserve-us-btn-container:hover .reserve-us-text-div h2{
+    color: rgba(220, 220, 220, 0.67);
+}
+
 
 .reserve-us-text-div {
     position: absolute;
@@ -30,6 +46,7 @@
     top: 0;
     justify-content: center;
     align-items: center;
+    z-index: 99;
 }
 
 .reserve-us-text-div h2 {

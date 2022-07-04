@@ -1,6 +1,11 @@
+.performances-table-row {
+    align-items: center;
+    padding-top: 5px;
+}
+
 .performances-table-title {
     font-family: 'IM Fell English SC', serif;
-    font-size: 48px;
+    font-size: 32px !important;
     color: rgba(255,215,2,0.77);
     padding-left: 30px;
     text-transform: lowercase;
@@ -9,9 +14,80 @@
 
 .performances-table-text {
     font-family: 'IM Fell English SC', serif;
-    font-size: 32px;
+    font-size: 28px !important;
     color: #ffffff;
     padding-left: 30px;
     text-transform: lowercase;
     text-align: center;
+    align-self: center;;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .performances-table-title {
+        font-family: 'IM Fell English SC', serif;
+        font-size: 20px !important;
+        color: rgba(255,215,2,0.77);
+        padding-left: 30px;
+        text-transform: lowercase;
+    }
+    
+    
+    .performances-table-text {
+        font-family: 'IM Fell English SC', serif;
+        font-size: 14px !important;
+        color: #ffffff;
+        padding-left: 30px;
+        text-transform: lowercase;
+        text-align: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .performances-table-title {
+        font-size: 20px !important;
+    }
+    
+    
+    .performances-table-text {
+        font-size: 16px !important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .performances-table-title {
+        font-size: 22px !important;
+    }
+    
+    
+    .performances-table-text {
+        font-size: 18px !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .performances-table-title {
+        font-size: 24px !important;
+    }
+    
+    
+    .performances-table-text {
+        font-size: 20px !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .performances-table-title {
+        font-size: 32px !important;
+    }
+    
+    
+    .performances-table-text {
+        font-size: 24px !important;
+    }
 }

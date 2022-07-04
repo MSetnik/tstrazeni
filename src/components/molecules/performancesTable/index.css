@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    z-index: 999;
 }
 
 .performances-table-head {
@@ -42,4 +43,74 @@
     font-size: 32px;
     color: #ffffff;
     padding-left: 30px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .performances-table-container {
+        width: 100%;
+        height: 100%;
+        padding: 40px 10px 40px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        z-index: 999;
+    }
+    
+    .performances-table-head {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .performances-table-body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .performances-table-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 5px 0 5px 0;
+    }
+    
+    .performances-table-title {
+        font-family: 'IM Fell English SC', serif;
+        font-size: 48px;
+        color: rgba(255,215,2,0.77);
+        padding-left: 30px;
+    }
+    
+    
+    .performances-table-text {
+        font-family: 'IM Fell English SC', serif;
+        font-size: 32px;
+        color: #ffffff;
+        padding-left: 30px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
 }

@@ -13,7 +13,7 @@ const Home = () => {
       <HomeLanding />
       <NextPerformances />
       
-      <div className='home-content3'>
+      {/* <div className='home-content3'>
         <img alt='bg' className='home-content3-image' src={homeContent3Img}/>
         <div className='home-content3-image-overlay'>
           <div className='home-content3-text'>
@@ -30,7 +30,7 @@ const Home = () => {
 
       <HomeReserveUs />
 
-      <Footer />
+      <Footer /> */}
     </div>
 
   )

@@ -191,17 +191,19 @@
 
 
 @media screen and (max-width: 768px) {
+   
     #links-container{
         display: none;
     }
 
     .navbar-div {
-        position: relative !important;
-        /* display: flex; */
+        /* position: relative !important; */
+        padding: 0 10px;
         flex:1;
         width: 100%;
         height: 56px;
         flex-direction: column;
+        margin: 0;
 
     }
 
@@ -232,7 +234,7 @@
     
     /* navbar menu */
     .navbar-menu {
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(53, 53, 53);
         z-index: 99;
         position: absolute;
         width: 100vw;
@@ -271,7 +273,7 @@
     }
 
     .link-nav-menu a{
-        color: #4176c5 !important;
+        color: rgba(255,215,2,0.77) !important;
         margin-bottom: 10px;
         position: relative;
         right: -300px;
