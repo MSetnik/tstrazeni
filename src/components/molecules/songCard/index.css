@@ -18,13 +18,15 @@
     position: absolute;
     float: left;
     left: 0;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 .songs-text-div {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-top: 20px;
+    justify-content: center;
 }
 
 .songs-text-div h1 {
@@ -32,6 +34,7 @@
     font-size: 32px;
     color: #000000;
     text-transform: lowercase;
+    text-align: center;
 }
 
 .songs-text-div h2 {
@@ -50,29 +53,127 @@
     bottom: 0px;
     z-index: 1000;
     background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    aspect-ratio: 1/1 !important;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+.song-img-overlay a{
     width: 100%;
     height: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.song-img-overlay img {
+    width: 50%;
+    height: 50%;
+    left: 25%;
 }
  
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .songs-grid-container {
+        margin: 100px 20px !important;
+    }
+
+    .song-card-container {
+        background-color: rgb(241, 241, 241);
+        width: 200px;
+        height: 90px;
+        display: flex;
+        z-index: 1;
+    }
+
+
+    .songs-text-div h1 {
+        font-size: 20px;
+        text-transform: lowercase;
+    }
+
+    .songs-text-div h2 {
+        font-size: 14px;
+        margin-top: -10px;
+        margin-left: -5px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .song-card-container {
+        background-color: rgb(241, 241, 241);
+        width: 300px;
+        height: 120px;
+        display: flex;
+        z-index: 1;
+    }
+
+
+    .songs-text-div h1 {
+        font-size: 20px;
+        text-transform: lowercase;
+    }
+
+    .songs-text-div h2 {
+        font-size: 14px;
+        margin-top: -10px;
+        margin-left: -5px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .song-img-overlay {
-        float: left;
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        bottom: 0px;
-        z-index: 1000;
-        background-color: rgba(174, 13, 13, 0.4);
-        width: auto;
-        height: 100%;
-        aspect-ratio: 1/1;
+    .song-card-container {
+        background-color: rgb(241, 241, 241);
+        width: 300px;
+        height: 120px;
+        display: flex;
     }
 
-    .song-image-div img{
-        aspect-ratio: 1/1;
-        width: auto;
-        height: 100%;
 
+    .songs-text-div h1 {
+        font-size: 22px;
+        text-transform: lowercase;
     }
+
+    .songs-text-div h2 {
+        font-size: 16px;
+        margin-top: -10px;
+        margin-left: -5px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .song-card-container {
+        background-color: rgb(241, 241, 241);
+        width: 400px;
+        height: 150px;
+        display: flex;
+    }
+
+
+    .songs-text-div h1 {
+        font-size: 24px;
+        text-transform: lowercase;
+    }
+
+    .songs-text-div h2 {
+        font-size: 18px;
+        margin-top: -10px;
+        margin-left: -5px;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
 }

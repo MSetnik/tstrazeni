@@ -2,7 +2,7 @@ import { useState } from "react"
 
 const ReserveUsBtn = ({width = '306', height = '306', color = '#D3B308'}) => {
     return (
-        <svg width={width} height={height} viewBox="0 0 306 305" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="reserve-us-btn-svg" width={width} height={height} viewBox="0 0 306 305" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_d_8_341)">
             <circle cx="152" cy="148" r="148" fill={color}/>
             </g>

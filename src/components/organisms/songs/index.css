@@ -19,3 +19,40 @@
 .col {
     justify-content: center !important;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .songs-container {
+        height: 600px;
+    }
+    .songs-container img{
+        height: 600px;
+    }
+    .songs-grid-container {
+        height: 70%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   
+}
+
+@media only screen and (min-width: 1200px){
+    .songs-container {
+        height: 700px;
+        overflow: hidden;
+    }
+    .songs-container:first-of-type img{
+        /* height: 600px; */
+        object-fit: contain;
+    }
+    .songs-grid-container {
+        height: 60%;
+    }
+}

@@ -10,11 +10,11 @@ const Footer = () => {
       <div className="footer-basic">
         <footer>
           <div className="social">
-            <a href="https://www.facebook.com/tstrazeni6/?ref=page_internal">
-              <RiFacebookFill color="white" />
+            <a href="https://www.facebook.com/tstrazeni6/?ref=page_internal" target='_blank' rel="noreferrer">
+              <RiFacebookFill color="white" className="" />
             </a>
 
-            <a href="https://www.instagram.com/tamburaski_sastav_trazeni/">
+            <a href="https://www.instagram.com/tamburaski_sastav_trazeni/" target='_blank' rel="noreferrer">
               <AiOutlineInstagram color="white" />
             </a>
 
@@ -30,12 +30,12 @@ const Footer = () => {
         </footer>
       </div>
       <div className="developer-container">
-      <div className="developer-info-div">
-        <a href="https://matkosetnik.com">
-              Developed by Matko Setnik
-        </a>
+        <div className="developer-info-div">
+          <a href="https://matkosetnik.com">
+                Developed & designed by Matko Setnik
+          </a>
+        </div>
       </div>
-    </div>
     </div>
 
   );

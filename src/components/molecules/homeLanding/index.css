@@ -10,6 +10,7 @@
     top: 0px;
     z-index: 9;
     background-color: rgba(0, 0, 0, 0.4);
+    /* background: linear-gradient(45deg, rgba(0,0,0,0.3), rgba(255,215,2, 0.3)); */
     width: 100%;
     height: inherit;
 }
@@ -20,7 +21,23 @@
     z-index: 99;
     top: 0px;
     right: 0px;
+    background: linear-gradient( 45deg, rgba(0,0,0,0.3) 50%, rgba(255,215,2, 0.1));
+
+    /* width: 100vw !important;
+    height: 100%; */
 }
+
+
+.home-elipse svg rect {
+    position: absolute;
+    z-index: 99;
+    top: 0px;
+    right: 0px;
+
+    width: 1920px;
+    height: 4000px;
+}
+
 
 .home-container-1-text {
     position: absolute;

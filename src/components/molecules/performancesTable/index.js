@@ -17,16 +17,10 @@ const PerformancesTable = () => {
            
 
             <div className="performances-table-body">
-                <PerformancesTableRow date={"26. travnja"} place={'valpovo, cb best'} />
-                <PerformancesTableRow date={"26. travnja"} place={'valpovo, cb best'} />
-                <PerformancesTableRow date={"26. travnja"} place={'valpovo, cb best'} />
-                <PerformancesTableRow date={"26. travnja"} place={'valpovo, cb best'} />
-                <PerformancesTableRow date={"26. travnja"} place={'valpovo, cb best'} />
-                <PerformancesTableRow date={"26. travnja"} place={'valpovo, cb best'} />
-                <PerformancesTableRow date={"26. travnja"} place={'valpovo, cb best'} />
-                <PerformancesTableRow date={"26. travnja"} place={'valpovo, cb best'} />
-                <PerformancesTableRow date={"26. travnja"} place={'valpovo, cb best'} />
-
+                <PerformancesTableRow date={"6. svibnja"} place={'valpovo, cb best'} />
+                <PerformancesTableRow date={"12. svibnja"} place={'satnica, cb cosak'} />
+                <PerformancesTableRow date={"13. svibnja"} place={'ladimirevci, cb toni'} />
+                <PerformancesTableRow date={"17. svibnja"} place={'valpovo, KC katancic'} />
             </div>
         </div>
     )

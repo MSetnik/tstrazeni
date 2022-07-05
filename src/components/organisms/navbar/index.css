@@ -51,7 +51,7 @@
   }
 
 .sticky {
-    z-index: 999999;
+    z-index: 9999999999;
     top: 0;
     height: 64px !important;
     width: 100%;
@@ -212,7 +212,6 @@
         top: 0;
         height: 56px !important;
         width: 100%;
-        z-index: 99;
 
     }
 
@@ -234,7 +233,7 @@
     
     /* navbar menu */
     .navbar-menu {
-        background-color: rgb(53, 53, 53);
+        background-color:rgb(24, 24, 24);
         z-index: 99;
         position: absolute;
         width: 100vw;

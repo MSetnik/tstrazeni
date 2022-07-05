@@ -13,7 +13,9 @@ code {
 }
 
 html, body {
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
+  background-color:rgb(24, 24, 24);
+
 }
 body {
   position: relative

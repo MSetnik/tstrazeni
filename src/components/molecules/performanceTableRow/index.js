@@ -2,7 +2,7 @@ import BtnRounded from "../../atoms/btn-rounded"
 import Divider from "../../atoms/divider"
 import './index.css'
 
-const PerformancesTableRow = ({id, date, place}) => {
+const PerformancesTableRow = ({id, date, place, divider = true}) => {
     return (
         <>
            <div className="performances-table-row">
@@ -17,7 +17,9 @@ const PerformancesTableRow = ({id, date, place}) => {
                 <BtnRounded text={'Dodaj u kalendar'}/>
 
             </div>
-            <Divider width={'100%'} color='#ffffff' /> 
+            {
+                divider && <Divider width={'100%'} color='#ffffff' /> 
+            }
         </>
     )
 }

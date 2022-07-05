@@ -168,7 +168,7 @@ const Navbar = ({
 
         <div id="links-container">
           <div className='link'>
-            <div className="link-border-top" />
+            <div className="link-border-top link-selected" />
             <a href="#about">
               {link1}
             </a>

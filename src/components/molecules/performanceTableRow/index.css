@@ -19,7 +19,8 @@
     padding-left: 30px;
     text-transform: lowercase;
     text-align: center;
-    align-self: center;;
+    align-self: center;
+    max-width: 150px;
 }
 
 
@@ -27,7 +28,7 @@
 @media only screen and (max-width: 600px) {
     .performances-table-title {
         font-family: 'IM Fell English SC', serif;
-        font-size: 20px !important;
+        font-size: 24px !important;
         color: rgba(255,215,2,0.77);
         padding-left: 30px;
         text-transform: lowercase;
@@ -36,7 +37,7 @@
     
     .performances-table-text {
         font-family: 'IM Fell English SC', serif;
-        font-size: 14px !important;
+        font-size: 16px !important;
         color: #ffffff;
         padding-left: 30px;
         text-transform: lowercase;
@@ -47,7 +48,7 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .performances-table-title {
-        font-size: 20px !important;
+        font-size: 24px !important;
     }
     
     
